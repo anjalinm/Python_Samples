@@ -1,0 +1,1 @@
+UPDATE anjali.radar_det SET day = 01, WHERE AB = a0000000, year = 2001, month = 1, config = '[A]';

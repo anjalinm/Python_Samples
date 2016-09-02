@@ -1,0 +1,28 @@
+\documentclass{/some/quite/long/path/here}
+
+\begin{document}
+
+\clearpage
+\thispagestyle{empty}
+
+\begin{deluxetable*}{cccccccccccc}
+\tablewidth{0pt}
+\tablecaption{Radar Observations of Asteroid YYYY ABC}
+\tablehead{
+\colhead{Col_1} & \colhead{Col_2} & \colhead{Col_3} & \colhead{Col_4} & \colhead{Col_5} & \colhead{Col_6}$} & \colhead{Col_7} & \colhead{Col_8} & \colhead{Col_9} & \colhead{Col_10} & \colhead{Col_11} & \colhead{Col_12}\\
+\colhead{} & \colhead{yyyy-mm-dd} & \colhead{} & \colhead{} & \colhead{a} & \col head{aa} & \colhead{$\mu$s} & \colhead{} & \colhead{aa} & \colhead{} & \colhead{ nnnnnn-nnnnnn} & \colhead{}
+}
+\startdata
+A     & 2001-01-01 & 00000 & 00 & 00 & 000 & aa &  &     & none & 000000-000000  & 1\\
+      & 2001-01-01 & 00000 & 00 & 00 & 000 & aa &  &     & none & 000000-000000  & 1\\
+      & 2001-01-01 & 00000 & 00 & 00 & 000 & aa &  &     & none & 000000-000000  & 1\\
+      & 2001-01-01 & 00000 & 00 & 00 & 000 & aa &  &     & none & 000000-000000  & 1\ \
+\enddata
+
+\tablecomments{Description of column heads.
+The first column tells which telescope the observation was taken at.
+The second column tells the date of the observation.
+The rest is proprietary data.}
+\end{deluxetable*}
+
+\end{document}
